@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nebras Store</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #ffffff;
+      color: #222;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #f4f4f4;
+      text-align: center;
+      padding: 1rem;
+    }
+    header img {
+      max-width: 220px;
+      height: auto;
+    }
+    nav {
+      background-color: #333;
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      padding: 0.5rem 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 0.5rem 1rem;
+    }
+    nav a:hover {
+      background-color: #555;
+    }
+    main {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem;
+    }
+    .product {
+      border: 1px solid #ddd;
+      border-radius: 12px;
+      max-width: 500px;
+      width: 90%;
+      margin-bottom: 2rem;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.3s ease;
+    }
+    .product:hover {
+      transform: scale(1.03);
+    }
+    .product img {
+      width: 100%;
+      display: block;
+    }
+    .product-details {
+      padding: 1rem;
+    }
+    .product-details h2 {
+      margin-top: 0;
+    }
+    .product-details p {
+      color: #555;
+    }
+    .buy-button {
+      display: block;
+      width: 100%;
+      padding: 0.75rem;
+      background-color: #007BFF;
+      color: white;
+      text-align: center;
+      text-decoration: none;
+      border-top: 1px solid #ddd;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+    .buy-button:hover {
+      background-color: #0056b3;
+    }
+    .rating {
+      color: gold;
+      margin-top: 0.5rem;
+    }
+    .form-section {
+      max-width: 500px;
+      width: 90%;
+      margin: 2rem auto;
+      padding: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+    .form-section h3 {
+      text-align: center;
+    }
+    .form-section input {
+      width: 100%;
+      padding: 0.5rem;
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    .form-section button {
+      width: 100%;
+      padding: 0.5rem;
+      background-color: #28a745;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    .form-section button:hover {
+      background-color: #218838;
+    }
+    footer {
+      background-color: #f4f4f4;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header><img src="store/file_000000002cf861f8af3930acb9d1b75f (2).png" alt="Nebras Logo" width="1024" height="1024" /></header>
+  <nav>
+    <a href="#">الرئيسية</a>
+    <a href="#about">من نحن</a>
+    <a href="#contact">تواصل معنا</a>
+  </nav>
+  <main>
+    <div class="product">
+      <img src="store/premiere-pro-updates-adobe-max.webp" alt="Adobe Premiere Pro" />
+      <div class="product-details">
+        <h2>Adobe Premiere Pro</h2>
+        <p>حساب مفعل</p>
+        <p><strong>السعر:</strong> 30 ريال</p>
+        <div class="rating">★★★★★</div>
+        <a class="buy-button" href="https://ko-fi.com/s/27bc373e3b" target="_blank">اشتر الآن</a>
+      </div>
+    </div>
+
+    <div class="product">
+      <img src="store/hq720.jpg" alt="Adobe Photoshop" />
+      <div class="product-details">
+        <h2>Adobe Photoshop</h2>
+        <p>نسخة مفعلة للكمبيوتر</p>
+        <p><strong>السعر:</strong> 25 ريال</p>
+        <div class="rating">★★★★☆</div>
+        <a class="buy-button" href="https://ko-fi.com/s/2aae83e78e" target="_blank">اشتر الآن</a>
+      </div>
+    </div>
+
+    <section id="about" style="max-width: 700px; text-align: center;">
+      <h2>من نحن</h2>
+      <p>متجر Nebras الإلكتروني هو وجهتك الآمنة والموثوقة للحصول على منتجات رقمية بجودة عالية وخدمة مميزة.</p>
+    </section>
+
+    <section id="contact" style="max-width: 700px; text-align: center; margin-top: 2rem;">
+      <h2>تواصل معنا</h2>
+      <p>البريد الإلكتروني: <a href="mailto:abunebras7076@gmail.com">nebras7076@gmail.com</a></p>
+      <p>انستقرام: <a href="https://www.instagram.com/nebras7076?igsh=bTV2Y3ZnNDdlcjJ4" target="_blank">@nebras7076</a></p>
+    </section>
+
+  </main>
+  <footer>
+    &copy; 2025 متجر Nebras. جميع الحقوق محفوظة.
+  </footer>
+</body>
+</html>
